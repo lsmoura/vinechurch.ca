@@ -1,0 +1,29 @@
+{
+  "name": "vinechurch.ca",
+  "version": "1.0.0",
+  "description": "The Vine Church Canada website",
+  "scripts": {
+    "deploy": "surge ./public/ vinechurch.ca",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lsmoura/vinechurch.ca.git"
+  },
+  "keywords": [
+    "website",
+    "static",
+    "church",
+    "portuguese"
+  ],
+  "author": "Sergio Moura <sergio@moura.ca>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lsmoura/vinechurch.ca/issues"
+  },
+  "homepage": "https://github.com/lsmoura/vinechurch.ca#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "metalsmith": "^2.3.0"
+  }
+}
